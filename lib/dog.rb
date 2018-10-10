@@ -12,7 +12,7 @@ class Dog
     @name = new_name
   end 
   
-  def bark
+  def self.bark
     puts "woof!"
   end 
 end 
