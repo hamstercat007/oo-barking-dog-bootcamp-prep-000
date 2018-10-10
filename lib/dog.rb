@@ -16,7 +16,7 @@ class Dog
   # binding.pry
   
   def bark
-    p "woof!"
+    puts "woof!"
   end 
 end 
   
