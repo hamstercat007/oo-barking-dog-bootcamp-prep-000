@@ -13,7 +13,7 @@ class Dog
     @name = new_name
   end
   
-  binding.pry
+  # binding.pry
   
   def bark
     return "woof!"
