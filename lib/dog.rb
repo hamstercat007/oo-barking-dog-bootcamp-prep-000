@@ -8,7 +8,7 @@ class Dog
     @name
   end 
   
-  def name=(new_name)
+  def name=(name)
     @name = new_name
   end 
   
