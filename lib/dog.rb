@@ -1,4 +1,5 @@
-# Your code goes here!
+require 'pry'
+
 class Dog
   def initialize(name)
     @name = name
@@ -10,7 +11,9 @@ class Dog
   
   def name=(new_name)
     @name = new_name
-  end 
+  end
+  
+  binding.pry
   
   def bark
     puts "woof!"
